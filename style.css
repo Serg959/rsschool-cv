@@ -610,6 +610,19 @@ header {
   color: orange;
 }
 
+.contacts__list {
+  display: flex;
+  flex-direction: column;
+  list-style: circle;
+  padding-left: 35px;;
+}
+
+.contacts__items {
+  min-height: 30px;
+  padding-left:5px;
+  margin-bottom: 10px;
+  color: orange;
+}
 .main__info {
   width: 70%;
   padding: 20px 30px;
@@ -679,5 +692,26 @@ pre {
 }
 
 .project:hover {
+  color: red;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: row;
+  
+  
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: orange;
+  
+}
+.footer__github {
+  text-decoration: none;
+  color: #202026;
+}
+.footer__github:hover {
   color: red;
 }

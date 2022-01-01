@@ -533,6 +533,10 @@ header {
   text-decoration: none;
 }
 
+.header__link:hover{
+  color: red;
+}
+
 .header__info {
   height: 40%;
   display: flex;
@@ -545,4 +549,135 @@ header {
 
 .header__title {
   font-size: 36;
+}
+
+.main__conteiner {
+  display: flex;
+}
+
+.aside {
+  width: 30%;
+  padding: 20px 0 0 30px;
+  background-color: #202026;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.education {
+  margin-bottom: 54px;
+}
+
+.aside-section__title {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+}
+
+.line {
+  height: 2px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.line_orange {
+  background-color: orange;
+}
+
+.university {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.education__description {
+  padding-left: 15px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.skills__list {
+  display: flex;
+  flex-direction: column;
+  list-style: circle;
+  padding-left: 35px;;
+}
+
+.skills__items {
+  min-height: 30px;
+  padding-left:5px;
+  margin-bottom: 10px;
+  color: orange;
+}
+
+.main__info {
+  width: 70%;
+  padding: 20px 30px;
+  background-color: #fff;
+  color: #202026;
+}
+
+.main-section__title {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: right;
+}
+
+.line-black {
+  background-color: #202026;
+}
+
+.main__description {
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.main__subtitle {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.main__list {
+  margin-bottom: 10px;
+  padding: 10px 0 0 30px;
+  list-style: circle; 
+}
+
+.main__item {
+  font-size: 18px;
+  margin: 10 0;
+}
+
+.code-example {
+  display: flex;
+  flex-direction: column;
+}
+
+.code .pre {
+  margin: 0;
+  display: flex;
+  align-self: center;
+  width: 100%;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.project {
+
+  padding: 16px 140px;
+  background-color: orange;
+  text-decoration: none;
+  color: #202026;
+  
+}
+
+.project:hover {
+  color: red;
 }
